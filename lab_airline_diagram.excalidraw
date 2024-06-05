@@ -1,0 +1,102 @@
+{
+  "type": "excalidraw",
+  "version": 2,
+  "source": "https://excalidraw.com",
+  "elements": [
+    {
+      "id": "ERCSZuHBvY4CohguxnbHe",
+      "type": "rectangle",
+      "x": 320.5625,
+      "y": 146.875,
+      "width": 265.7109375,
+      "height": 255.71484375,
+      "angle": 0,
+      "strokeColor": "#1e1e1e",
+      "backgroundColor": "transparent",
+      "fillStyle": "solid",
+      "strokeWidth": 2,
+      "strokeStyle": "solid",
+      "roughness": 1,
+      "opacity": 100,
+      "groupIds": [],
+      "frameId": null,
+      "index": "b0z",
+      "roundness": {
+        "type": 3
+      },
+      "seed": 1459611185,
+      "version": 51,
+      "versionNonce": 125236095,
+      "isDeleted": false,
+      "boundElements": null,
+      "updated": 1717597327520,
+      "link": null,
+      "locked": false
+    },
+    {
+      "id": "7nhbmCTAgAie9--k67brZ",
+      "type": "rectangle",
+      "x": 602.05078125,
+      "y": 469.38671875,
+      "width": 265.7109375,
+      "height": 255.71484375,
+      "angle": 0,
+      "strokeColor": "#1e1e1e",
+      "backgroundColor": "transparent",
+      "fillStyle": "solid",
+      "strokeWidth": 2,
+      "strokeStyle": "solid",
+      "roughness": 1,
+      "opacity": 100,
+      "groupIds": [],
+      "frameId": null,
+      "index": "b10",
+      "roundness": {
+        "type": 3
+      },
+      "seed": 300148351,
+      "version": 127,
+      "versionNonce": 604208209,
+      "isDeleted": false,
+      "boundElements": null,
+      "updated": 1717597344818,
+      "link": null,
+      "locked": false
+    },
+    {
+      "id": "wUa-4Ee8LUvVs3egPwcJ-",
+      "type": "rectangle",
+      "x": 866.06640625,
+      "y": 139.3203125,
+      "width": 265.7109375,
+      "height": 255.71484375,
+      "angle": 0,
+      "strokeColor": "#1e1e1e",
+      "backgroundColor": "transparent",
+      "fillStyle": "solid",
+      "strokeWidth": 2,
+      "strokeStyle": "solid",
+      "roughness": 1,
+      "opacity": 100,
+      "groupIds": [],
+      "frameId": null,
+      "index": "b11",
+      "roundness": {
+        "type": 3
+      },
+      "seed": 967261905,
+      "version": 109,
+      "versionNonce": 1966634097,
+      "isDeleted": false,
+      "boundElements": null,
+      "updated": 1717597343402,
+      "link": null,
+      "locked": false
+    }
+  ],
+  "appState": {
+    "gridSize": null,
+    "viewBackgroundColor": "#ffffff"
+  },
+  "files": {}
+}
