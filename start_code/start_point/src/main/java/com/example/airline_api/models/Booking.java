@@ -12,7 +12,7 @@ public class Booking {
     private long id;
 
     @ManyToOne
-    @JoinColumn
+    @JoinColumn(name = "")
     private Flight flight;
     private Passenger passenger;
     private int seatNumber;

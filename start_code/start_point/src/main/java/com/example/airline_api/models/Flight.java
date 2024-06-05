@@ -1,15 +1,32 @@
 package com.example.airline_api.models;
 
+import com.fasterxml.jackson.annotation.JsonIgnoreProperties;
+import jakarta.persistence.*;
+
 import java.util.ArrayList;
 import java.util.List;
-
+@Entity
+@Table(name = "flight")
 public class Flight {
 
+    @Id
+    @GeneratedValue(strategy = GenerationType.IDENTITY)
     private long id;
+
+    @Column(name = "destination")
     private String destination;
+
+    @Column(name = "capacity")
     private int capacity;
+
+    @Column(name = "departure_date")
     private String departureDate;
+
+    @Column(name = "departure_time")
     private String departureTime;
+
+    @OneToMany(mappedBy = "flights")
+    @JsonIgnoreProperties("{booking}")
     private List<Passenger> passengers;
 
     public Flight(String destination, int capacity, String departureDate, String departureTime) {
