@@ -1,8 +1,18 @@
 package com.example.airline_api.models;
 
+
+import jakarta.persistence.*;
+
+@Entity
+@Table(name = "Booking")
 public class Booking {
 
+    @Id
+    @GeneratedValue(strategy = GenerationType.IDENTITY)
     private long id;
+
+    @ManyToOne
+    @JoinColumn
     private Flight flight;
     private Passenger passenger;
     private int seatNumber;
