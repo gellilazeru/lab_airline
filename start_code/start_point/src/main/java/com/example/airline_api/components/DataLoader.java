@@ -24,26 +24,26 @@ public class DataLoader implements ApplicationRunner {
     @Override
     public void run(ApplicationArguments args) throws Exception {
 
-        Flight edinburgh = new Flight("EDI", 2, "2023-01-01", "07:00:00");
-        flightService.addNewFlight(edinburgh);
+        Flight ethiopia = new Flight("ADD", 43, "2024-06-06", "07:00:00");
+        flightService.addNewFlight(ethiopia);
 
-        Flight tokyo = new Flight("HND", 250, "2024-04-15", "16:30:00");
-        flightService.addNewFlight(tokyo);
+        Flight uk = new Flight("LDN", 50, "2024-26-05", "16:30:00");
+        flightService.addNewFlight(uk);
 
-        Flight calgary = new Flight("YYC", 200, "2024-08-24", "23:00:00");
-        flightService.addNewFlight(calgary);
+        Flight spain = new Flight("BCL", 63, "2024-13-06", "23:00:00");
+        flightService.addNewFlight(spain);
 
-        Passenger colin = new Passenger("Colin", "colin@brightnetwork.co.uk");
-        passengerService.addNewPassenger(colin);
+        Passenger gellila = new Passenger("Gellila", "gellila@gmail.com");
+        passengerService.addNewPassenger(gellila);
 
-        Passenger anna = new Passenger("Anna", "anna@brightnetwork.co.uk");
-        passengerService.addNewPassenger(anna);
+        Passenger gideon = new Passenger("Gideon", "gideon@gmail.com");
+        passengerService.addNewPassenger(gideon);
 
-        Passenger zsolt = new Passenger("Zsolt", "zsolt@brightnetwork.co.uk");
-        passengerService.addNewPassenger(zsolt);
+        Passenger jonathan = new Passenger("Jonathan", "jonathan@gmail.com");
+        passengerService.addNewPassenger(jonathan);
 
-        Passenger richard = new Passenger("Richard", "richard@brightnetwork.co.uk");
-        passengerService.addNewPassenger(richard);
+        Passenger sirkut = new Passenger("Sirkut", "sirkut@gmail.com");
+        passengerService.addNewPassenger(sirkut);
 
     }
 }
